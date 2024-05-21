@@ -189,7 +189,7 @@ const ShowSkill=({skill})=>{
                   Proficient in Java, including its use in data analysis, machine learning, and web development.
                 </p>
               </div>
-              <div className="flex flex-col items-center justify-center space-y-2 bg-white p-6 rounded-lg shadow-lg dark:bg-gray-950">
+              {/* <div className="flex flex-col items-center justify-center space-y-2 bg-white p-6 rounded-lg shadow-lg dark:bg-gray-950">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -254,7 +254,7 @@ const ShowSkill=({skill})=>{
                   Experienced in leveraging AWS services to build and deploy scalable and highly available web
                   applications.
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
