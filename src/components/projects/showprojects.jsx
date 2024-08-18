@@ -11,13 +11,13 @@ const ShowProject=({projects})=>{
                 Featured Projects
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-sky-400">My Work</h2>
-              <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+              <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 skill-mar">
                 Here are some of the projects I've worked on that showcase my problem-solving skills and attention to
                 detail.
               </p>
             </div>
           {/* <Projectcard></Projectcard> */}
-          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:gap-8 lg:grid-cols-3 lg:gap-10">
+          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:gap-8 lg:grid-cols-3 lg:gap-10" style={{display:"flex",flexDirection:'column',alignItems:"center"}}>
           <PrintProject></PrintProject>
           </div>
           </div>

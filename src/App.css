@@ -1,0 +1,94 @@
+.skill-mar{
+  margin-left: 27%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width:555px) {
+  .skill-mar{
+    margin-left: -3%;
+  }
+}
+
+.my-header{
+  position: fixed;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  top: 15px;
+  border-radius: 10px;
+  backdrop-filter: blur(11px);
+  background: yellow !important;
+  color: black !important;
+  font-weight: 700;
+  left: 26%;
+  z-index: 1000;
+  transition: all 0.2s ease-in-out;
+}
+
+.headings{
+font-weight: 700;
+font-size: 20px;
+}
+
+.my-header:hover{
+background-color: rgb(255, 238, 0) !important;
+transition: all 0.2s ease-in-out;
+cursor: pointer;
+}
+
+@media (min-width: 640px) {
+  .sm\:w-full {
+      width: 70% !important;
+      border-radius: 19px;
+      box-shadow: 0 0 100px yellow !important;
+  }
+
+}
+
+
+
+.my-hover-but:hover{
+background-color: yellow !important;
+color: black !important;
+font-weight: 700;
+}
+
+.handles{
+  box-shadow: 0 0 20px yellow !important;
+  transition: all 0.1s ease-in-out;
+}
+
+.handles:hover{
+  background-color: yellow !important;
+  color: black !important;
+  font-weight: 700;
+  transition: all 0.1s ease-in-out;
+}
+.my-hover-skills{
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+
+}
+
+.my-hover-skills:hover{
+  background-color: yellow !important;
+  color: black !important;
+  box-shadow: 0 0 20px yellow !important;
+  transform: scale(1.1);
+  transform: translate3d(360deg);
+  transition: all 0.2s ease-in-out;
+}
+
+.profetion{
+  background-color: yellow !important;
+  color: black !important;
+  font-weight: 700;
+}
+
+.profetion:hover{
+  background-color: aqua !important
+}

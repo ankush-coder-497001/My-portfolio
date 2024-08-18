@@ -6,7 +6,7 @@ const Nav =({contacts,skill,projects})=>{
 
   return(
     <>
-     <header className="px-4 lg:px-6 h-14 flex items-center bg-gray-900 text-gray-50 dark:bg-gray-950 dark:text-gray-50">
+     <header className="px-4 lg:px-6 h-14 flex items-center bg-gray-900 text-gray-50 dark:bg-gray-950 dark:text-gray-50 my-header">
         <a className="flex items-center justify-center" href="#" rel="ugc">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -25,21 +25,19 @@ const Nav =({contacts,skill,projects})=>{
           </svg>
           <span className=" text-sky-400 font-medium px-4">Ankush Gupta's Portfolio</span>
         </a>
-        <nav className="ml-auto flex gap-4 sm:gap-6">
-          <a className="text-sm font-medium hover:underline underline-offset-4" rel="ugc" onClick={()=>skill.current?.scrollIntoView({
+        <nav className="ml-auto flex gap-4 sm:gap-6 headings">
+          <a className="text-sm font-medium hover:underline underline-offset-4 cursor-pointer" rel="ugc" onClick={()=>skill.current?.scrollIntoView({
             behavior:"smooth"
           })} >
             Skills
           </a>
-          <a className="text-sm font-medium hover:underline underline-offset-4" rel="ugc" onClick={()=>projects.current?.scrollIntoView({
+          <a className="text-sm font-medium hover:underline underline-offset-4 cursor-pointer" rel="ugc" onClick={()=>projects.current?.scrollIntoView({
             behavior:"smooth"
           })}>
             Projects
           </a>
-          <a className="text-sm font-medium hover:underline underline-offset-4" href="#" rel="ugc">
-            Testimonials
-          </a>
-          <a className="text-sm font-medium hover:underline underline-offset-4" onClick={()=>contacts.current?.scrollIntoView({
+     
+          <a className="text-sm font-medium hover:underline underline-offset-4 cursor-pointer" onClick={()=>contacts.current?.scrollIntoView({
             behavior:"smooth"
           })} rel="ugc">
             Contact
