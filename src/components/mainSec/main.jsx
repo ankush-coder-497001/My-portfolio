@@ -13,7 +13,7 @@ const Main=({oncontactClick,projects,profileshow})=>{
                   Passionate about building scalable and performant web applications. Skilled in a variety of
                   programming languages and frameworks.
                 </p>
-                <div className="flex items-center space-x-4">
+                <div className="flex items-center space-x-4 social-res " >
         <a
           className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-700 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-400 dark:focus-visible:ring-gray-300 handles"
           href="https://www.linkedin.com/in/ankush-kumar-gupta-88b383305/"
@@ -88,7 +88,7 @@ const Main=({oncontactClick,projects,profileshow})=>{
           WhatsApp
         </a>
       </div>
-                <div className="flex flex-col gap-2 min-[400px]:flex-row">
+                <div className="flex flex-col gap-2 min-[400px]:flex-row main-but">
                   <a
                     className="inline-flex h-10 items-center justify-center rounded-md bg-gray-50 px-8 text-sm font-medium text-gray-900 shadow transition-colors hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:text-gray-50 dark:hover:bg-gray-700 cursor-pointer my-hover-but"
                     rel="ugc"
