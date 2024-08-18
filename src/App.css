@@ -28,7 +28,12 @@
   z-index: 1000;
   transition: all 0.2s ease-in-out;
 }
-
+@media (max-width:555px) {
+  .my-header{
+  position: inherit;
+  width: 100vw;
+  }
+}
 .headings{
 font-weight: 700;
 font-size: 20px;
@@ -40,13 +45,18 @@ transition: all 0.2s ease-in-out;
 cursor: pointer;
 }
 
+.sm\:w-full {
+  width: 70% !important;
+  border-radius: 19px;
+  box-shadow: 0 0 100px yellow !important;
+}
+
 @media (min-width: 640px) {
   .sm\:w-full {
       width: 70% !important;
       border-radius: 19px;
       box-shadow: 0 0 100px yellow !important;
   }
-
 }
 
 
@@ -91,4 +101,21 @@ font-weight: 700;
 
 .profetion:hover{
   background-color: aqua !important
+}
+
+@media (min-width:620px) {
+  .pro-card{
+    width:90vw;
+    display: flex;
+     padding: 30px;
+     height: 80vh;
+  }
+}
+
+
+@media (max-width:550px) {
+  .contact-pic{
+    width: 40% !important;
+    margin-left: 114px !important;
+  }
 }

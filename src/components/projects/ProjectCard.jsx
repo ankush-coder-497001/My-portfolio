@@ -2,11 +2,7 @@ const Projectcard=({ProjectName,ProjectNO,description,imageUrl,GitHubUrl})=>{
   return(
     <>
      
-              <div className="border text-card-foreground bg-white dark:bg-gray-950 rounded-lg shadow-lg" data-v0-t="card" style={{width:"90vw",
-                    display: "flex",
-                    padding: "30px",
-                    height: "80vh",
-              }}>
+              <div className="border text-card-foreground bg-white dark:bg-gray-950 rounded-lg shadow-lg pro-card" data-v0-t="card">
                 <div className="space-y-1.5 p-6 flex flex-col items-start gap-2">
                  <video src={imageUrl} title="JARVIS" controls="true" style={{
                   width: "100%",
