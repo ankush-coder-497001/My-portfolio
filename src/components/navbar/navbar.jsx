@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { Link } from "react-router-dom";
 
-const Nav =({contacts,skill,projects})=>{
+const Nav =({contacts,skill,projects,experience})=>{
 
 
   return(
@@ -41,6 +41,11 @@ const Nav =({contacts,skill,projects})=>{
             behavior:"smooth"
           })} rel="ugc">
             Contact
+          </a>
+          <a className="text-sm font-medium hover:underline underline-offset-4 cursor-pointer" onClick={()=>experience.current?.scrollIntoView({
+            behavior:"smooth"
+          })} rel="ugc">
+            Experience
           </a>
         </nav>
       </header>

@@ -102,7 +102,14 @@ font-weight: 700;
 .profetion:hover{
   background-color: aqua !important
 }
-
+.work-hover{
+  transform: scale(0.90);
+  transition: all 0.2s ease-in-out;
+}
+.work-hover:hover{
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.0);
+}
 @media (min-width:620px) {
   .pro-card{
     width:90vw;

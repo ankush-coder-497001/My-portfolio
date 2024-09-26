@@ -9,12 +9,14 @@ import ShowProject from "./projects/showprojects"
 import Contact from "./Mycontact/contact"
 import { Outlet } from "react-router-dom"
 import Goto from "./goto"
+import Experience from "./Experience"
 
 export default function Mainpage() {
   const skill = useRef()
   const projects = useRef()
   const contacts = useRef()
   const profileshow = useRef()
+  const experience = useRef()
 
 
   const [contact,setcontact]=useState(false);
@@ -23,7 +25,6 @@ export default function Mainpage() {
   }
   const profile=()=>{
     setcontact(!contact);
-
   }
   return (
     <div className="flex flex-col min-h-[100dvh]">
@@ -31,6 +32,7 @@ export default function Mainpage() {
       skill={skill}
       projects={projects}
       contacts={contacts}
+      experience={experience}
      ></Nav>
       <main className="flex-1">
        { contact===true ?  <Contact profile={profile} ></Contact> :<Main oncontactClick={oncontactClick}  projects={projects}
@@ -40,6 +42,7 @@ export default function Mainpage() {
        <Outlet></Outlet>
      <ShowSkill skill={skill}></ShowSkill>
     <ShowProject projects={projects}></ShowProject>
+    <Experience experience={experience} />
         <Contact contacts={contacts}  projects={projects}></Contact>
         <Goto   profileshow={profileshow}></Goto>
       </main>
