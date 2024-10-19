@@ -19,6 +19,14 @@ const Experience = ({experience})=>{
       text1:"Contributed to the development of dynamic web applications using Nuxt.js, significantly improving website performance.",
       text2:"Implemented automated testing, reducing bug occurrences by 25% in the production environment",
       text3:"Played a key role in setting up CI/CD pipelines using GitHub Actions, cutting down release times by 20%.",
+    },
+    {
+      company:"CodSoft",
+      role:"Web Development Intern",
+      duration:"3 Months",
+      text1:"Developed and maintained full-stack web applications using the MERN stack, including React, Node.js, Express, and MongoDB.",
+      text2:"Collaborated with team members to enhance application features, fix bugs, and improve performance.",
+      text3:"Played a key role in setting up CI/CD pipelines using GitHub Actions, cutting down release times by 20%.",
     }
   ]
 

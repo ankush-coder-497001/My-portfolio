@@ -119,6 +119,15 @@ font-weight: 700;
   }
 }
 
+.projects-dec{
+  text-align:center;
+  padding:20px;
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  gap:20px;
+  width:25%;
+}
 
 @media (max-width:550px) {
   .contact-pic{
@@ -140,5 +149,9 @@ font-weight: 700;
   .whts-app{
     margin-top: 10px !important;
     margin-left: 50px !important;
+  }
+  .projects-dec{
+   
+    width:100%;
   }
 }
