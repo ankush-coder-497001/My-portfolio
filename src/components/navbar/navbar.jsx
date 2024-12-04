@@ -23,7 +23,7 @@ const Nav =({contacts,skill,projects,experience})=>{
             <polyline points="16 18 22 12 16 6"></polyline>
             <polyline points="8 6 2 12 8 18"></polyline>
           </svg>
-          <span className=" text-sky-400 font-medium px-4">Ankush Gupta's Portfolio</span>
+          <span className=" text-sky-400 font-medium px-4">Welcome</span>
         </a>
         <nav className="ml-auto flex gap-4 sm:gap-6 headings">
           <a className="text-sm font-medium hover:underline underline-offset-4 cursor-pointer" rel="ugc" onClick={()=>skill.current?.scrollIntoView({
