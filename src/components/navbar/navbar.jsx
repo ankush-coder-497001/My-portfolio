@@ -37,15 +37,15 @@ const Nav =({contacts,skill,projects,experience})=>{
             Projects
           </a>
      
-          <a className="text-sm font-medium hover:underline underline-offset-4 cursor-pointer" onClick={()=>contacts.current?.scrollIntoView({
-            behavior:"smooth"
-          })} rel="ugc">
-            Contact
-          </a>
           <a className="text-sm font-medium hover:underline underline-offset-4 cursor-pointer" onClick={()=>experience.current?.scrollIntoView({
             behavior:"smooth"
           })} rel="ugc">
             Experience
+          </a>
+          <a className="text-sm font-medium hover:underline underline-offset-4 cursor-pointer" onClick={()=>contacts.current?.scrollIntoView({
+            behavior:"smooth"
+          })} rel="ugc">
+            Contact
           </a>
         </nav>
       </header>

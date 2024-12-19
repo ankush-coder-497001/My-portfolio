@@ -32,14 +32,14 @@ const Experience = ({experience})=>{
 
   return (
     <>
-    <section class="py-16" ref={experience}>
+    <section class="py-16 " ref={experience}>
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold text-center mb-12 text-yellow-600">Professional Experience</h2>
             <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
 
 {MyWork.map((work)=>(
   
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden border-t-4 border-sky-400 work-hover">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden border-t-4 font-serif border-sky-400 work-hover">
                     <div class="p-6">
                         <div class="flex items-center mb-4">
                         <MdMapsHomeWork style={{height:'40px',width:'40px'}} />
