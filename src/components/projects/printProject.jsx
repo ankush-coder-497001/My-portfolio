@@ -9,24 +9,24 @@ const PrintProject=()=>{
     setProject(myProjects);
   },[])
   const myProjects=[
-    {
-      id:1,
-   ProjectName:"JARVIS-DESCTOP-ASSISTANT",
-   ProjectNO:1,
-   description:"Developed a voice-activated personal assistant using the MERN stack that automates browser functions such as web searches, opening websites, and executing custom commands, enhancing user productivity through hands-free operation.",
-   videoLink:"jarvis.mp4",
-   GitHubUrl:"https://github.com/ankush-coder-497001/JARVIS.git",
-   Link:"https://j-a-r-v-i-s.netlify.app/"
-  },
-    {
-      id:1,
-   ProjectName:"Book-My-Show",
-   ProjectNO:2,
-   description:"Developed a movie ticket booking website similar to BookMyShow using the MERN stack. The site allows users to browse movies, select seats, and book tickets online, with a fully functional payment gateway. Integrated MongoDB for secure user and booking data management, along with React for a seamless user interface. The platform supports user authentication, dynamic seat selection, and real-time availability updates.",
-   videoLink:"Book-my-show-video.mp4",
-   GitHubUrl:"https://github.com/ankush-coder-497001/Book-My-Show",
-   Link:"https://book-my-show-c-ankush.netlify.app/"
-  },
+  {
+    id:1,
+ ProjectName:"Website Generator with AI",
+ ProjectNO:1,
+ description:"Developed an AI-powered website generation tool enabling users to create fully functional, customizable websites instantly based on their preferences.",
+ videoLink:"build-your-own.mp4",
+ GitHubUrl:"https://github.com/ankush-coder-497001/Website-Generator-AI",
+ Link:"https://generate-website-ai.netlify.app/mainpage"
+}, 
+ {
+  id:1,
+ProjectName:"JARVIS-DESCTOP-ASSISTANT",
+ProjectNO:2,
+description:"Developed a voice-activated personal assistant using the MERN stack that automates browser functions such as web searches, opening websites, and executing custom commands, enhancing user productivity through hands-free operation.",
+videoLink:"jarvis.mp4",
+GitHubUrl:"https://github.com/ankush-coder-497001/JARVIS.git",
+Link:"https://j-a-r-v-i-s.netlify.app/"
+},
     {
       id:1,
    ProjectName:"Collaborative Code Editor",
