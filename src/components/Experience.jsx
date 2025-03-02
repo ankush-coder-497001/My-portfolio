@@ -5,6 +5,14 @@ const Experience = ({experience})=>{
 
   const MyWork = [
     {
+      company:"Tech Grow",
+      role:"Full Stack Developer Intern",
+      duration:"3 Months",
+      text1:"As a MERN stack developer, I have worked on multiple projects during my internships, gaining hands-on experience in building scalable and efficient web applications.",
+      text2:"Optimized web page load times by 20% by refactoring code and minimizing HTTP requests.",
+      text3:"I contributed to both frontend and backend development, ensuring seamless integration and performance optimization.",
+    },
+    {
       company:"Sales queen Software Solution",
       role:"FrontEnd Developer Intern",
       duration:"3 Months",
@@ -27,7 +35,8 @@ const Experience = ({experience})=>{
       text1:"Developed and maintained full-stack web applications using the MERN stack, including React, Node.js, Express, and MongoDB.",
       text2:"Collaborated with team members to enhance application features, fix bugs, and improve performance.",
       text3:"Played a key role in setting up CI/CD pipelines using GitHub Actions, cutting down release times by 20%.",
-    }
+    },
+    
   ]
 
   return (

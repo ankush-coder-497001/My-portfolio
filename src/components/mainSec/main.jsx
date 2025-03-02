@@ -8,8 +8,9 @@ const Main=({oncontactClick,projects,profileshow})=>{
             ref={profileshow}>
           <div className="container px-4 md:px-6">
             <div className="grid items-center gap-6 lg:grid-cols-2 lg:gap-12">
-              <div className="space-y-4">
+              <div className="space-y-4  ">
                 <div className="inline-block rounded-lg bg-gray-800 px-3 py-1 text-sm profetion">MERN STACK DEVELOPER</div>
+                <div className="inline-block rounded-lg mx-2 bg-gray-800 px-3 py-1 text-sm profetion">1+ Years Of Experience</div>
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">Ankush Kumar Gupta</h1>
                 <p className="max-w-[600px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Passionate about building scalable and performant web applications. Skilled in a variety of
